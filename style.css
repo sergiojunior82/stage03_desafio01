@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+
+  background-color: #535971;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: #ffffff;
+
+  margin-top: 140px;
+}
+
+header p {
+  font-family: "Poppins";
+  font-weight: 400;
+
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+
+  width: 420px;
+}
+
+form {
+  margin-top: 58px;
+
+  padding: 64px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+fieldset {
+  border: none;
+  margin-bottom: 14px;
+}
+
+fieldset legend {
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  
+  color: #535971;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+
+  margin-bottom: 36px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.complete-name {
+  display: flex;
+  gap: 22px;
+  width: 100%;
+}
+
+.complete-name input {
+  width: 300px;
+}
+
+.input-wrapper label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+.input-wrapper input {
+
+  height: 56px;
+  background: #FAFAFC;
+
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+
+  padding-left: 24px;
+}
+
+h2 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+
+  margin-bottom: 8px;
+}
+
+.date-mentory {
+  display: flex;
+  gap: 32px;
+}
+
+.date-mentory > div:nth-child(1){
+  width: 300px;
+}
+
+.hour-mentory {
+  display: flex;
+  gap: 10px;
+}
+
+.hour-mentory div {
+  width: 140px;
+}
+
+footer {
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+
+  height: 160px;
+  width: 100%;
+
+  margin-bottom: 160px;
+
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-family: "Staatliches";
+  width: 608px;
+  height: 56px;
+
+  background: #FF5374;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  margin: 0 auto;
+
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: #fd2852;
+  
+}
